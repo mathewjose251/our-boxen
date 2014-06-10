@@ -7,9 +7,14 @@ class people::nickpellant {
   include elasticsearch
   include mysql
   include postgresql
+  include redis
 
+  include imagemagick  
+  
   include heroku
   heroku::plugin { 'accounts':
     source => 'ddollar/heroku-accounts'
   }
+
+  include projects::fatsoma
 }
