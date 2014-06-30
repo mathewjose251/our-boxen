@@ -9,9 +9,10 @@ class people::nickpellant {
   include postgresql
   include redis
   include mongodb
-  
   include imagemagick  
-  
+
+  class { 'vagrant': }
+
   include heroku
   heroku::plugin { 'accounts':
     source => 'ddollar/heroku-accounts'
