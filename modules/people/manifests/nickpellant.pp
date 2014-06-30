@@ -8,7 +8,8 @@ class people::nickpellant {
   include mysql
   include postgresql
   include redis
-
+  include mongodb
+  
   include imagemagick  
   
   include heroku
