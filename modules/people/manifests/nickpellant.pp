@@ -17,4 +17,6 @@ class people::nickpellant {
   heroku::plugin { 'accounts':
     source => 'ddollar/heroku-accounts'
   }
+
+  include projects::all
 }
