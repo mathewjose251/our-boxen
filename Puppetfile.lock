@@ -4,6 +4,11 @@ GITHUBTARBALL
     boxen (3.6.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-btsync
+  specs:
+    btsync (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-clojure
   specs:
     clojure (1.2.0)
@@ -160,6 +165,7 @@ GITHUBTARBALL
 
 DEPENDENCIES
   boxen (= 3.6.1)
+  btsync (= 1.0.0)
   clojure (= 1.2.0)
   dnsmasq (= 1.0.1)
   elasticsearch (= 2.3.0)

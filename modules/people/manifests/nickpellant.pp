@@ -1,4 +1,6 @@
 class people::nickpellant {
+  include btsync
+  
   include clojure
   include java
   
