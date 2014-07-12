@@ -1,5 +1,6 @@
 class people::nickpellant::apps {
   include btsync
-  include plex
   include dropbox
+  include github_for_mac
+  include plex
 }
