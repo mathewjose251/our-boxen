@@ -139,11 +139,6 @@ GITHUBTARBALL
     sysctl (1.0.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-utorrent
-  specs:
-    utorrent (1.1.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
     vagrant (3.1.1)
@@ -206,7 +201,6 @@ DEPENDENCIES
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
   sysctl (= 1.0.1)
-  utorrent (= 1.1.1)
   vagrant (= 3.1.1)
   xquartz (= 1.1.1)
 
