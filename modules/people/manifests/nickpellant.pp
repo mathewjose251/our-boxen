@@ -1,7 +1,5 @@
 class people::nickpellant {
-  include btsync
-  include plex
-  include dropbox
+  include people::nickpellant::apps
 
   include clojure
   include java
