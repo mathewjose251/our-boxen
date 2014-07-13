@@ -4,4 +4,5 @@ class people::nickpellant::apps {
   include github_for_mac
   include plex
   include silverlight
+  include steam
 }
