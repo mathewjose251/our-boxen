@@ -144,6 +144,11 @@ GITHUBTARBALL
     steam (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sublime_text
+  specs:
+    sublime_text (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
@@ -228,6 +233,7 @@ DEPENDENCIES
   silverlight (= 1.0.1)
   stdlib (= 4.2.1)
   steam (= 1.0.1)
+  sublime_text (= 1.0.1)
   sudo (= 1.0.0)
   sysctl (= 1.0.1)
   vagrant (= 3.1.1)

@@ -1,7 +1,8 @@
 class people::nickpellant {
-  include people::nickpellant::browsers
   include people::nickpellant::apps
+  include people::nickpellant::browsers
   include people::nickpellant::drivers
+  include people::nickpellant::text_editors
 
   include clojure
   include java
