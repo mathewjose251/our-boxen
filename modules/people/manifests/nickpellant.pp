@@ -1,4 +1,5 @@
 class people::nickpellant {
+  include people::nickpellant::browsers
   include people::nickpellant::apps
   include people::nickpellant::drivers
 
