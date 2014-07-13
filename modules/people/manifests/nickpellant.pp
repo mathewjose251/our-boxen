@@ -1,5 +1,6 @@
 class people::nickpellant {
   include people::nickpellant::apps
+  include people::nickpellant::drivers
 
   include clojure
   include java

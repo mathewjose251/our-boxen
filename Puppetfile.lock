@@ -169,6 +169,11 @@ GITHUBTARBALL
     silverlight (1.0.1)
 
 GITHUBTARBALL
+  remote: nickpellant/puppet-xbox_360_controller
+  specs:
+    xbox_360_controller (1.0.0)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.0.3)
@@ -220,5 +225,6 @@ DEPENDENCIES
   sudo (= 1.0.0)
   sysctl (= 1.0.1)
   vagrant (= 3.1.1)
+  xbox_360_controller (= 1.0.0)
   xquartz (= 1.1.1)
 
