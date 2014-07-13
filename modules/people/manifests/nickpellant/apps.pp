@@ -3,4 +3,5 @@ class people::nickpellant::apps {
   include dropbox
   include github_for_mac
   include plex
+  include silverlight
 }
