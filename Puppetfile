@@ -71,11 +71,15 @@ github "redis",               "3.0.2"
 github "imagemagick",         "1.2.1"
 github "mongodb",             "2.6.1"
 github "vagrant",             "3.1.1"
+
+# Apps
 github "btsync",              "1.0.0"
-github "plex",                "1.0.0", :repo => "nickpellant/puppet-plex"
 github "github_for_mac",      "1.0.3"
+github "plex",                "1.0.0", :repo => "nickpellant/puppet-plex"
 github "silverlight",         "1.0.1", :repo => "nickpellant/puppet-silverlight"
 github "steam",               "1.0.1"
+
+# Drivers
 github "xbox_360_controller", "1.0.0", :repo => "nickpellant/puppet-xbox_360_controller"
 
 # Browsers
