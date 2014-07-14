@@ -74,6 +74,7 @@ github "vagrant",             "3.1.1"
 
 # Apps
 github "btsync",              "1.0.0"
+github "chromecast",          "1.0.0", :repo => "nickpellant/puppet-chromecast"
 github "github_for_mac",      "1.0.3"
 github "plex",                "1.0.0", :repo => "nickpellant/puppet-plex"
 github "silverlight",         "1.0.1", :repo => "nickpellant/puppet-silverlight"

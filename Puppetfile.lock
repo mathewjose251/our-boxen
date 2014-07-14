@@ -169,6 +169,11 @@ GITHUBTARBALL
     xquartz (1.1.1)
 
 GITHUBTARBALL
+  remote: nickpellant/puppet-chromecast
+  specs:
+    chromecast (1.0.0)
+
+GITHUBTARBALL
   remote: nickpellant/puppet-plex
   specs:
     plex (1.0.0)
@@ -202,6 +207,7 @@ DEPENDENCIES
   boxen (= 3.6.1)
   btsync (= 1.0.0)
   chrome (= 1.1.2)
+  chromecast (= 1.0.0)
   clojure (= 1.2.0)
   dnsmasq (= 1.0.1)
   elasticsearch (= 2.3.0)
