@@ -6,14 +6,13 @@ class people::nickpellant {
 
   include clojure
   include java
-  
+
   include iterm2::dev
 
   include elasticsearch
-  include postgresql
   include redis
   include mongodb
-  include imagemagick  
+  include imagemagick
 
   class { 'vagrant': }
 
