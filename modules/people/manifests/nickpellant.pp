@@ -10,7 +10,6 @@ class people::nickpellant {
   include iterm2::dev
 
   include elasticsearch
-  include mysql
   include postgresql
   include redis
   include mongodb
