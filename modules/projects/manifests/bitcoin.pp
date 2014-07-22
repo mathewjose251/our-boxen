@@ -33,6 +33,10 @@ class projects::bitcoin {
     ensure => present
   }
 
+  exec { 'brew link openssl --force':
+    refreshonly => 'true'
+  }
+
   package { 'pkg-config':
     ensure => present
   }
