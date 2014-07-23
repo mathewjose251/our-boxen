@@ -81,6 +81,7 @@ github "silverlight",         "1.0.1", :repo => "nickpellant/puppet-silverlight"
 github "steam",               "1.0.1"
 github "onepassword",         "1.1.2"
 github "dropbox",             "1.2.0"
+github "skype",               "1.0.8"
 
 # Browsers
 github "chrome",              "1.1.2"

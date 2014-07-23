@@ -6,5 +6,6 @@ class people::nickpellant::apps {
   include onepassword
   include plex
   include silverlight
+  include skype
   include steam
 }
