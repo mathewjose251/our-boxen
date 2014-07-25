@@ -11,4 +11,10 @@ class projects::dotfiles {
     target  => "${dotfiles_dir}/.zshrc",
     require => Repository[$dotfiles_dir]
 	}
+
+  file { "${home}/.railsrc":
+    ensure  => link,
+    target  => "${dotfiles_dir}/.railsrc",
+    require => Repository[$dotfiles_dir]
+  }
 }
