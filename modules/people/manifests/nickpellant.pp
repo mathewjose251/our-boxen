@@ -13,6 +13,7 @@ class people::nickpellant {
   include redis
   include mongodb
   include imagemagick
+  include mysql
 
   class { 'vagrant': }
 

@@ -71,6 +71,7 @@ github "redis",               "3.0.2"
 github "imagemagick",         "1.2.1"
 github "mongodb",             "2.6.1"
 github "vagrant",             "3.1.1"
+github "mysql",               "1.2.0"
 
 # Apps
 github "btsync",              "1.0.0"
