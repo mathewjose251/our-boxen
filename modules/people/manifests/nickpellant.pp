@@ -14,6 +14,7 @@ class people::nickpellant {
   include mongodb
   include imagemagick
   include mysql
+  include postgresql
 
   class { 'vagrant': }
 
