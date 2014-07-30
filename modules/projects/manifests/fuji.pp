@@ -1,7 +1,7 @@
 class projects::fuji {
   boxen::project { 'fuji':
     ruby   => '2.1.2',
-    source => 'nickp@54.76.158.81:/opt/git/fuji.git',
+    source => 'git@ec2-54-76-152-102.eu-west-1.compute.amazonaws.com:fuji/fuji.git',
     mysql  => true
   }
 }
