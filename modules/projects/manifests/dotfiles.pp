@@ -17,4 +17,10 @@ class projects::dotfiles {
     target  => "${dotfiles_dir}/.railsrc",
     require => Repository[$dotfiles_dir]
   }
+
+  file { "${home}/.gitignore_global":
+    ensure  => link,
+    target  => "${dotfiles_dir}/.gitignore_global",
+    require => Repository[$dotfiles_dir]
+  }
 }
