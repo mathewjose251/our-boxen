@@ -83,6 +83,7 @@ github "steam",               "1.0.1"
 github "onepassword",         "1.1.2"
 github "dropbox",             "1.2.0"
 github "skype",               "1.0.8"
+github "mailbox",             "1.1.0", :repo => "nickpellant/puppet-mailbox"
 
 # Browsers
 github "chrome",              "1.1.2"

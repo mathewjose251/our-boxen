@@ -8,4 +8,5 @@ class people::nickpellant::apps {
   include silverlight
   include skype
   include steam
+  include mailbox
 }
