@@ -191,7 +191,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: nickpellant/puppet-mailbox
   specs:
-    mailbox (1.1.0)
+    mailbox (1.1.1)
 
 GITHUBTARBALL
   remote: nickpellant/puppet-plex
@@ -244,7 +244,7 @@ DEPENDENCIES
   inifile (= 1.1.1)
   iterm2 (= 1.1.1)
   java (= 1.5.0)
-  mailbox (= 1.1.0)
+  mailbox (= 1.1.1)
   module_data (= 0.0.3)
   mongodb (= 2.6.1)
   mysql (= 1.2.0)
