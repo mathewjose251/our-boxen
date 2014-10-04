@@ -5,16 +5,8 @@ class projects::bitcoin {
     source => 'nickpellant/bitcoin'
   }
 
-  package { 'autoconf':
-    ensure  => present
-  }
-
   package { 'automake':
     ensure  => present
-  }
-
-  package { 'libtool':
-    ensure => present
   }
 
   package { 'berkeley-db4':
@@ -35,10 +27,6 @@ class projects::bitcoin {
 
   exec { 'brew link openssl --force':
     refreshonly => 'true'
-  }
-
-  package { 'pkg-config':
-    ensure => present
   }
 
   package { 'protobuf':

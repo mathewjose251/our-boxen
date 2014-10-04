@@ -4,6 +4,12 @@ class people::nickpellant {
   include people::nickpellant::drivers
   include people::nickpellant::text_editors
 
+  include wget
+  include autoconf
+  include libtool
+  include pcre
+  include libpng
+
   include clojure
   include java
 

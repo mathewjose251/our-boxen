@@ -59,6 +59,11 @@ github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+github "wget",                "1.0.1"
+github "autoconf",            "1.0.0"
+github "libtool",             "1.0.0"
+github "pcre",                "1.0.0"
+github "libpng",              "1.0.0"
 github "clojure",             "1.2.0"
 github "iterm2",              "1.1.1"
 github "sysctl",              "1.0.1"
@@ -72,6 +77,7 @@ github "imagemagick",         "1.2.1"
 github "mongodb",             "2.6.1"
 github "vagrant",             "3.1.1"
 github "mysql",               "1.2.0"
+github "php",                 "1.2.5"
 
 # Apps
 github "btsync",              "1.0.0"
