@@ -6,8 +6,7 @@ class people::nickpellant {
   include people::nickpellant::utilities
 
   include people::nickpellant::datastores
-  include clojure
-  include java
+  include people::nickpellant::languages
 
   include iterm2::dev
 
