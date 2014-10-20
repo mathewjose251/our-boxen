@@ -3,12 +3,7 @@ class people::nickpellant {
   include people::nickpellant::browsers
   include people::nickpellant::drivers
   include people::nickpellant::text_editors
-
-  include wget
-  include autoconf
-  include libtool
-  include pcre
-  include libpng
+  include people::nickpellant::utilities
 
   include clojure
   include java
@@ -18,7 +13,6 @@ class people::nickpellant {
   include elasticsearch
   include redis
   include mongodb
-  include imagemagick
   include mysql
   include postgresql
 
