@@ -5,16 +5,13 @@ class people::nickpellant {
   include people::nickpellant::text_editors
   include people::nickpellant::utilities
 
+  include people::nickpellant::datastores
   include clojure
   include java
 
   include iterm2::dev
 
   include elasticsearch
-  include redis
-  include mongodb
-  include mysql
-  include postgresql
 
   class { 'vagrant': }
 
