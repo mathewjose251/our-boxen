@@ -9,6 +9,7 @@ class people::nickpellant {
   include people::nickpellant::languages
 
   include iterm2::dev
+  include iterm2::colors::solarized_dark
 
   include elasticsearch
 
