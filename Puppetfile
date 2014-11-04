@@ -91,7 +91,7 @@ github "skype",               "1.0.8"
 github "mailbox",             "1.1.1", :repo => "nickpellant/puppet-mailbox"
 
 # Internet Browsers
-github "chrome",              "1.1.2"
+github "chrome",              "1.2.0"
 
 # Drivers
 github "xbox_360_controller", "1.0.0", :repo => "nickpellant/puppet-xbox_360_controller"

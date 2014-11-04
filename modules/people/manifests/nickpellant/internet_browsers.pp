@@ -1,3 +1,3 @@
 class people::nickpellant::internet_browsers {
-  include chrome
+  include chrome::canary
 }

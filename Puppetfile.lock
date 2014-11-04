@@ -16,7 +16,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
-    chrome (1.1.2)
+    chrome (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-clojure
@@ -257,7 +257,7 @@ DEPENDENCIES
   autoconf (= 1.0.0)
   boxen (= 3.7.0)
   btsync (= 1.0.0)
-  chrome (= 1.1.2)
+  chrome (= 1.2.0)
   chromecast (= 1.0.0)
   clojure (= 1.2.0)
   dnsmasq (= 2.0.0)
