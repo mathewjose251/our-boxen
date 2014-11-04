@@ -90,7 +90,7 @@ github "dropbox",             "1.2.0"
 github "skype",               "1.0.8"
 github "mailbox",             "1.1.1", :repo => "nickpellant/puppet-mailbox"
 
-# Browsers
+# Internet Browsers
 github "chrome",              "1.1.2"
 
 # Drivers
