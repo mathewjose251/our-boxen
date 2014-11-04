@@ -1,4 +1,6 @@
 class people::nickpellant {
+  include people::nickpellant::programming_languages
+
   include people::nickpellant::apps
   include people::nickpellant::browsers
   include people::nickpellant::drivers
@@ -6,7 +8,6 @@ class people::nickpellant {
   include people::nickpellant::utilities
 
   include people::nickpellant::datastores
-  include people::nickpellant::languages
 
   include iterm2::dev
   include iterm2::colors::solarized_dark
