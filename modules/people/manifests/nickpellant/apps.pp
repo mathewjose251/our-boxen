@@ -1,5 +1,5 @@
 class people::nickpellant::apps {
-  include btsync
+  # include btsync
   include chromecast
   include dropbox
   include github_for_mac

@@ -7,12 +7,12 @@ class people::nickpellant {
   include people::nickpellant::text_editors
   include people::nickpellant::utilities
 
-  include people::nickpellant::datastores
+  # include people::nickpellant::datastores
 
   include iterm2::dev
   include iterm2::colors::solarized_dark
 
-  include elasticsearch
+  # include elasticsearch
 
   class { 'vagrant': }
 
