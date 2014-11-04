@@ -94,6 +94,9 @@ github "chrome",              "1.2.0"
 github "firefox",             "1.2.3"
 github "tor",                 "1.1.0", :repo => "nickpellant/puppet-tor"
 
+# Productivity
+github "evernote",            "2.0.4"
+
 # Drivers
 github "xbox_360_controller", "1.0.0", :repo => "nickpellant/puppet-xbox_360_controller"
 
