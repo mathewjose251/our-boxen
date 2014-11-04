@@ -1,1 +1,2 @@
 ruby::global::version: "2.1.2"
+ruby::build::ensure: "v20141028"
