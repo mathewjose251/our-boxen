@@ -224,6 +224,11 @@ GITHUBTARBALL
     silverlight (1.0.1)
 
 GITHUBTARBALL
+  remote: nickpellant/puppet-tor
+  specs:
+    tor (1.1.0)
+
+GITHUBTARBALL
   remote: nickpellant/puppet-xbox_360_controller
   specs:
     xbox_360_controller (1.0.0)
@@ -290,6 +295,7 @@ DEPENDENCIES
   sublime_text (= 1.0.1)
   sudo (= 1.0.0)
   sysctl (= 1.0.1)
+  tor (= 1.1.0)
   vagrant (= 3.1.1)
   wget (= 1.0.1)
   xbox_360_controller (= 1.0.0)

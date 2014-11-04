@@ -91,6 +91,7 @@ github "mailbox",             "1.1.1", :repo => "nickpellant/puppet-mailbox"
 
 # Internet Browsers
 github "chrome",              "1.2.0"
+github "tor",                 "1.1.0", :repo => "nickpellant/puppet-tor"
 
 # Drivers
 github "xbox_360_controller", "1.0.0", :repo => "nickpellant/puppet-xbox_360_controller"
