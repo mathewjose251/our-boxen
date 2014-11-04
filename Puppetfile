@@ -84,7 +84,6 @@ github "github_for_mac",      "1.0.3"
 github "plex",                "1.0.0", :repo => "nickpellant/puppet-plex"
 github "silverlight",         "1.0.1", :repo => "nickpellant/puppet-silverlight"
 github "steam",               "1.0.1"
-github "onepassword",         "1.1.2"
 github "dropbox",             "1.2.0"
 github "skype",               "1.0.8"
 github "mailbox",             "1.1.1", :repo => "nickpellant/puppet-mailbox"
@@ -96,6 +95,7 @@ github "tor",                 "1.1.0", :repo => "nickpellant/puppet-tor"
 
 # Productivity
 github "evernote",            "2.0.4"
+github "onepassword",         "1.1.4"
 
 # Drivers
 github "xbox_360_controller", "1.0.0", :repo => "nickpellant/puppet-xbox_360_controller"
