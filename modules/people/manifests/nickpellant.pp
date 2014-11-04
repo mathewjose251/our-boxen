@@ -21,5 +21,5 @@ class people::nickpellant {
     source => 'ddollar/heroku-accounts'
   }
 
-  include projects::all
+  # include projects::all
 }
