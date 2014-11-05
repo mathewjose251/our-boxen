@@ -29,4 +29,10 @@ class projects::dotfiles {
     target  => "${dotfiles_dir}/.zshrc",
     require => Repository[$dotfiles_dir]
   }
+
+  file { "${home}/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings":
+    ensure  => link,
+    target  => "${dotfiles_dir}/Preferences.sublime-settings",
+    require => Repository[$dotfiles_dir]
+  }
 }
