@@ -95,6 +95,7 @@ github "tor",                 "1.1.0", :repo => "nickpellant/puppet-tor"
 # Productivity
 github "evernote",            "2.0.4"
 github "onepassword",         "1.1.4"
+github "things",              "1.0.1"
 
 # Drivers
 github "xbox_360_controller", "1.0.0", :repo => "nickpellant/puppet-xbox_360_controller"

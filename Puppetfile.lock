@@ -194,6 +194,11 @@ GITHUBTARBALL
     sysctl (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-things
+  specs:
+    things (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
     vagrant (3.1.1)
@@ -301,6 +306,7 @@ DEPENDENCIES
   sublime_text (= 1.0.1)
   sudo (= 1.0.0)
   sysctl (= 1.0.1)
+  things (= 1.0.1)
   tor (= 1.1.0)
   vagrant (= 3.1.1)
   wget (= 1.0.1)
