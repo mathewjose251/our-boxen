@@ -6,11 +6,17 @@ class projects::dotfiles {
   $home = "/Users/${::boxen_user}"
   $dotfiles_dir = "${boxen::config::srcdir}/dotfiles"
 
-	file { "${home}/.zshrc":
+  file { "${home}/.gitignore_global":
     ensure  => link,
-    target  => "${dotfiles_dir}/.zshrc",
+    target  => "${dotfiles_dir}/.gitignore_global",
     require => Repository[$dotfiles_dir]
-	}
+  }
+
+  file { "${home}/.rspec":
+    ensure  => link,
+    target  => "${dotfiles_dir}/.rspec",
+    require => Repository[$dotfiles_dir]
+  }
 
   file { "${home}/.railsrc":
     ensure  => link,
@@ -18,9 +24,9 @@ class projects::dotfiles {
     require => Repository[$dotfiles_dir]
   }
 
-  file { "${home}/.gitignore_global":
+  file { "${home}/.zshrc":
     ensure  => link,
-    target  => "${dotfiles_dir}/.gitignore_global",
+    target  => "${dotfiles_dir}/.zshrc",
     require => Repository[$dotfiles_dir]
   }
 }
