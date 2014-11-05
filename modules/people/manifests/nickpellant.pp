@@ -13,8 +13,6 @@ class people::nickpellant {
   include iterm2::dev
   include iterm2::colors::solarized_dark
 
-  # include elasticsearch
-
   class { 'vagrant': }
 
   include heroku
@@ -22,5 +20,5 @@ class people::nickpellant {
     source => 'ddollar/heroku-accounts'
   }
 
-  # include projects::all
+  include projects::all
 }
