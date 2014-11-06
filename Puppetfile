@@ -68,10 +68,7 @@ github "iterm2",              "1.1.1"
 github "sysctl",              "1.0.1"
 github "postgresql",          "3.0.0"
 github "heroku",              "2.0.0"
-github "mysql",               "1.2.0"
-github "redis",               "3.0.2"
 github "imagemagick",         "1.2.1"
-github "mongodb",             "2.6.1"
 github "vagrant",             "3.1.1"
 github "mysql",               "1.2.0"
 github "php",                 "1.2.5"
@@ -98,6 +95,12 @@ github "tor",                 "1.1.0", :repo => "nickpellant/puppet-tor"
 github "evernote",            "2.0.4"
 github "onepassword",         "1.1.4"
 github "things",              "2.0.0", :repo => "nickpellant/puppet-things"
+
+# Programming Datastores
+github "mongodb",             "1.3.1"
+github "redis",               "3.0.2"
+github "mysql",               "1.2.0"
+
 
 # Drivers
 github "xbox_360_controller", "1.0.0", :repo => "nickpellant/puppet-xbox_360_controller"
