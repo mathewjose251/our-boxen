@@ -8,4 +8,5 @@ class projects::github {
   include projects::github::nickpellant::puppet-mongodb
   include projects::github::nickpellant::puppet-onepassword
   include projects::github::nickpellant::puppet-plex
+  include projects::github::nickpellant::puppet-ruby
 }
