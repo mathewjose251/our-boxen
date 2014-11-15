@@ -1,7 +1,8 @@
-class projects::bitcoin {
+class projects::github::nickpellant::bitcoin {
   include homebrew
 
   boxen::project { 'bitcoin':
+    dir    => "${boxen::config::srcdir}/github/nickpellant/bitcoin",
     source => 'nickpellant/bitcoin'
   }
 
