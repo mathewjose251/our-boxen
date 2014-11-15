@@ -13,4 +13,5 @@ class projects::github {
   include projects::github::nickpellant::puppet-steam
   include projects::github::nickpellant::puppet-template
   include projects::github::nickpellant::puppet-things
+  include projects::github::nickpellant::puppet-tor
 }
