@@ -11,4 +11,5 @@ class projects::github {
   include projects::github::nickpellant::puppet-ruby
   include projects::github::nickpellant::puppet-silverlight
   include projects::github::nickpellant::puppet-steam
+  include projects::github::nickpellant::puppet-template
 }
