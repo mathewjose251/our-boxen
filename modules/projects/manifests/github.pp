@@ -7,4 +7,5 @@ class projects::github {
   include projects::github::nickpellant::puppet-mailbox
   include projects::github::nickpellant::puppet-mongodb
   include projects::github::nickpellant::puppet-onepassword
+  include projects::github::nickpellant::puppet-plex
 }
