@@ -26,6 +26,7 @@ class projects::github {
   include projects::github::nickpellant::resume
   include projects::github::nickpellant::resumeToHTML
   include projects::github::nickpellant::sovereign
+  include projects::github::nickpellant::tab-test
   include projects::github::nickpellant::tip4commit
   include projects::github::nickpellant::workplace-test
 }
