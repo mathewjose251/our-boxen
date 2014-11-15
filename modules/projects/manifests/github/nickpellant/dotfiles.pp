@@ -1,10 +1,11 @@
-class projects::dotfiles {
+class projects::github::nickpellant::dotfiles {
   boxen::project { 'dotfiles':
+    dir    => "${boxen::config::srcdir}/github/nickpellant/dotfiles",
     source => 'nickpellant/dotfiles'
   }
 
   $home = "/Users/${::boxen_user}"
-  $dotfiles_dir = "${boxen::config::srcdir}/dotfiles"
+  $dotfiles_dir = "${boxen::config::srcdir}/github/nickpellant/dotfiles"
 
   file { "${home}/.gitignore_global":
     ensure  => link,

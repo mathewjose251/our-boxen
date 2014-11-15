@@ -1,6 +1,7 @@
 class projects::github {
   include projects::github::nickpellant::bitcoin
   include projects::github::nickpellant::bundler
+  include projects::github::nickpellant::dotfiles
   include projects::github::nickpellant::puppet-backblaze
   include projects::github::nickpellant::puppet-boxen
   include projects::github::nickpellant::puppet-btsync
