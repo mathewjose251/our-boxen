@@ -21,4 +21,5 @@ class people::nickpellant {
   }
 
   include projects::all
+  include projects::workplace-systems
 }
