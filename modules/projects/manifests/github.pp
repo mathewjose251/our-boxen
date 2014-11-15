@@ -21,4 +21,5 @@ class projects::github {
   include projects::github::nickpellant::rails
   include projects::github::nickpellant::resume
   include projects::github::nickpellant::resumeToHTML
+  include projects::github::nickpellant::sovereign
 }
