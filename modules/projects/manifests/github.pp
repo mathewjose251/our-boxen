@@ -17,5 +17,6 @@ class projects::github {
   include projects::github::nickpellant::puppet-things
   include projects::github::nickpellant::puppet-tor
   include projects::github::nickpellant::puppet-utorrent
+  include projects::github::nickpellant::rack-client
   include projects::github::nickpellant::rails
 }
