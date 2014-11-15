@@ -1,4 +1,6 @@
 class projects::github {
+  include projects::github::abigimportant::filmstacks-v1
+
   include projects::github::nickpellant::bitcoin
   include projects::github::nickpellant::bundler
   include projects::github::nickpellant::dotfiles
