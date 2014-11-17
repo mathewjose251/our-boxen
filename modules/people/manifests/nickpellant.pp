@@ -1,4 +1,5 @@
 class people::nickpellant {
+  include people::nickpellant::communication
   include people::nickpellant::developer_tools
   include people::nickpellant::internet_browsers
   include people::nickpellant::productivity
