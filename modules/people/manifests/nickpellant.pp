@@ -11,9 +11,6 @@ class people::nickpellant {
   include people::nickpellant::text_editors
   include people::nickpellant::utilities
 
-  include iterm2::dev
-  include iterm2::colors::solarized_dark
-
   class { 'vagrant': }
 
   include heroku
