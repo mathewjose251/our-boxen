@@ -101,6 +101,8 @@ github "mongodb",             "1.3.1"
 github "redis",               "3.0.2"
 github "mysql",               "1.2.0"
 
+# Music
+github "spotify",             "1.0.2"
 
 # Drivers
 github "xbox_360_controller", "1.0.0", :repo => "nickpellant/puppet-xbox_360_controller"
