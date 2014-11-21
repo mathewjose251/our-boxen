@@ -97,7 +97,7 @@ github "onepassword",         "1.1.4"
 github "things",              "2.0.0", :repo => "nickpellant/puppet-things"
 
 # Programming Datastores
-github "mongodb",             "1.3.1"
+github "mongodb",             "1.3.3"
 github "redis",               "3.0.2"
 github "mysql",               "1.2.0"
 
