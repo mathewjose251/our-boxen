@@ -85,6 +85,7 @@ github "mailbox",             "1.1.1", :repo => "nickpellant/puppet-mailbox"
 
 # Developer Tools
 github "github_for_mac",      "1.0.3"
+github "virtualbox",          "1.0.13"
 
 # Internet Browsers
 github "chrome",              "1.2.0"

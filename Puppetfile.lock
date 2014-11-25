@@ -204,6 +204,11 @@ GITHUBTARBALL
     vagrant (3.1.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.13)
+
+GITHUBTARBALL
   remote: boxen/puppet-wget
   specs:
     wget (1.0.1)
@@ -315,6 +320,7 @@ DEPENDENCIES
   things (= 2.0.0)
   tor (= 1.1.0)
   vagrant (= 3.1.1)
+  virtualbox (= 1.0.13)
   wget (= 1.0.1)
   xbox_360_controller (= 1.0.0)
   xquartz (= 1.2.1)
