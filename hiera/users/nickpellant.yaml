@@ -1,3 +1,5 @@
 ruby::global::version: "2.1.5"
 ruby::build::ensure: "v20141113"
 fig::version: '1.0.1'
+git::package: 'git'
+git::version: '2.2.1'
