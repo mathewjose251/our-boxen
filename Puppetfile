@@ -84,8 +84,10 @@ github "skype",               "1.0.8"
 github "mailbox",             "1.1.1", :repo => "nickpellant/puppet-mailbox"
 
 # Developer Tools
-github "github_for_mac",      "1.0.3"
-github "virtualbox",          "1.0.13"
+github "docker",         "0.7.0"
+github "fig",            "1.0.0"
+github "github_for_mac", "1.0.3"
+github "virtualbox",     "1.0.13"
 
 # Internet Browsers
 github "chrome",              "1.2.0"
