@@ -314,6 +314,7 @@ DEPENDENCIES
   openssl (= 1.0.0)
   pcre (= 1.0.0)
   phantomjs (= 2.3.0)
+  phantomjs (= 2.3.0)
   php (= 1.2.5)
   pkgconfig (= 1.0.0)
   plex (= 1.0.0)
