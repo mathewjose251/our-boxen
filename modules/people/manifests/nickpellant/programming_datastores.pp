@@ -3,4 +3,5 @@ class people::nickpellant::programming_datastores {
   include mongodb
   include mysql
   include postgresql
+  include cassandra
 }
