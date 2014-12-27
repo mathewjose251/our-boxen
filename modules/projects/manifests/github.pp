@@ -1,6 +1,8 @@
 class projects::github {
   include projects::github::abigimportant::filmstacks-v1
 
+  include projects::github::cdarwin::go-koans
+
   include projects::github::flynn::flynn
 
   include projects::github::infinitered::rmq
