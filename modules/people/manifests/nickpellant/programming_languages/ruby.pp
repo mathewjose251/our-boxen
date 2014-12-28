@@ -1,6 +1,7 @@
 class people::nickpellant::programming_languages::ruby {
   ruby::version { '2.1.5': }
   ruby::version { '2.2.0-preview2': }
+  ruby::version { 'jruby-1.7.17': }
 
   ruby_gem { 'bundler for all rubies':
     gem          => 'bundler',
