@@ -1,3 +1,3 @@
 class projects::nickpellant {
-  include projects::nickpellant::jarvis::jarvis-beacons
+  include projects::nickpellant::jarvis::jarvis-sensors
 }
