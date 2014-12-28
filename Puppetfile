@@ -104,10 +104,11 @@ github "things",              "2.0.0", :repo => "nickpellant/puppet-things"
 github "java", "1.8.0"
 
 # Programming Datastores
-github "mongodb",   "1.3.3"
-github "redis",     "3.0.2"
-github "mysql",     "1.2.0"
-github "cassandra", "2.0.2"
+github "mongodb",       "1.3.3"
+github "redis",         "3.0.2"
+github "mysql",         "1.2.0"
+github "cassandra",     "2.0.2"
+github "elasticsearch", "2.7.0"
 
 # Music
 github "spotify",             "1.0.2"
