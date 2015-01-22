@@ -96,9 +96,10 @@ github "firefox",             "1.2.3"
 github "tor",                 "1.1.0", :repo => "nickpellant/puppet-tor"
 
 # Productivity
-github "evernote",            "2.0.4"
-github "onepassword",         "1.1.4"
-github "things",              "2.0.0", :repo => "nickpellant/puppet-things"
+github "evernote",    "2.0.4"
+github "flux",        "1.0.1"
+github "onepassword", "1.1.4"
+github "things",      "2.0.0", :repo => "nickpellant/puppet-things"
 
 # Programming Languages
 github "java", "1.8.0"
