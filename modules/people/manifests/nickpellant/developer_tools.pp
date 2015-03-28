@@ -1,7 +1,9 @@
 class people::nickpellant::developer_tools {
   include docker
   include fig
-  include github_for_mac
+
+  package { 'github': provider => 'brewcask' }
+
   include iterm2::stable
 
   class { 'phantomjs':

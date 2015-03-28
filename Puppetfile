@@ -85,7 +85,6 @@ github "mailbox",             "1.1.1", :repo => "nickpellant/puppet-mailbox"
 # Developer Tools
 github "docker",         "0.7.0"
 github "fig",            "1.0.0"
-github "github_for_mac", "1.0.3"
 github "phantomjs",      "2.3.0"
 github "virtualbox",     "1.0.13"
 
