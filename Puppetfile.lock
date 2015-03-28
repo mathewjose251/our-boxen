@@ -81,7 +81,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
-    git (2.7.5)
+    git (2.7.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-github_for_mac
@@ -254,11 +254,6 @@ GITHUBTARBALL
     xquartz (1.2.1)
 
 GITHUBTARBALL
-  remote: nickpellant/puppet-chromecast
-  specs:
-    chromecast (1.0.0)
-
-GITHUBTARBALL
   remote: nickpellant/puppet-mailbox
   specs:
     mailbox (1.1.1)
@@ -310,7 +305,6 @@ DEPENDENCIES
   btsync (= 1.0.0)
   cassandra (= 2.0.2)
   chrome (= 1.2.0)
-  chromecast (= 1.0.0)
   dnsmasq (= 2.0.1)
   docker (= 0.7.0)
   dropbox (= 1.2.0)
@@ -321,7 +315,7 @@ DEPENDENCIES
   flux (= 1.0.1)
   foreman (= 1.2.0)
   gcc (= 2.2.0)
-  git (= 2.7.5)
+  git (= 2.7.6)
   github_for_mac (= 1.0.3)
   go (= 2.1.0)
   heroku (= 2.0.0)
