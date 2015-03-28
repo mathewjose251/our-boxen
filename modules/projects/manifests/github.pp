@@ -24,6 +24,7 @@ class projects::github {
   include projects::github::nickpellant::puppet-plex
   include projects::github::nickpellant::puppet-ruby
   include projects::github::nickpellant::puppet-silverlight
+  include projects::github::nickpellant::puppet-skype
   include projects::github::nickpellant::puppet-steam
   include projects::github::nickpellant::puppet-template
   include projects::github::nickpellant::puppet-things
