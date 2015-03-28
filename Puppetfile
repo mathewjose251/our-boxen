@@ -80,7 +80,6 @@ github "plex",                "1.0.0", :repo => "nickpellant/puppet-plex"
 github "silverlight",         "1.0.1", :repo => "nickpellant/puppet-silverlight"
 github "steam",               "1.0.1"
 github "dropbox",             "1.2.0"
-github "skype",               "1.0.8"
 github "mailbox",             "1.1.1", :repo => "nickpellant/puppet-mailbox"
 
 # Developer Tools

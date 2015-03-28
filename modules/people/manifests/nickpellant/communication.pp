@@ -1,3 +1,3 @@
 class people::nickpellant::communication {
-  include skype
+  package { 'skype': provider => 'brewcask' }
 }

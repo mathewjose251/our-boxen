@@ -204,11 +204,6 @@ GITHUBTARBALL
     ruby (8.3.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-skype
-  specs:
-    skype (1.0.8)
-
-GITHUBTARBALL
   remote: boxen/puppet-spotify
   specs:
     spotify (1.0.2)
@@ -347,7 +342,6 @@ DEPENDENCIES
   repository (= 2.3.0)
   ruby (= 8.3.0)
   silverlight (= 1.0.1)
-  skype (= 1.0.8)
   spotify (= 1.0.2)
   stdlib (= 4.2.1)
   steam (= 1.0.1)
