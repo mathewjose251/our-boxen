@@ -1,3 +1,3 @@
 class people::nickpellant::music {
-  include spotify
+  package { 'spotify': provider => 'brewcask' }
 }

@@ -106,9 +106,6 @@ github "mysql",         "1.2.0"
 github "cassandra",     "2.0.2"
 github "elasticsearch", "2.7.0"
 
-# Music
-github "spotify",             "1.0.2"
-
 # Drivers
 github "xbox_360_controller", "1.0.0", :repo => "nickpellant/puppet-xbox_360_controller"
 
