@@ -88,7 +88,6 @@ github "phantomjs",      "2.3.0"
 github "virtualbox",     "1.0.13"
 
 # Internet Browsers
-github "chrome",              "1.2.0"
 github "firefox",             "1.2.3"
 github "tor",                 "1.1.0", :repo => "nickpellant/puppet-tor"
 

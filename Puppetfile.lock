@@ -24,11 +24,6 @@ GITHUBTARBALL
     cassandra (2.0.2)
 
 GITHUBTARBALL
-  remote: boxen/puppet-chrome
-  specs:
-    chrome (1.2.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (2.0.1)
@@ -289,7 +284,6 @@ DEPENDENCIES
   brewcask (= 0.0.6)
   btsync (= 1.0.0)
   cassandra (= 2.0.2)
-  chrome (= 1.2.0)
   dnsmasq (= 2.0.1)
   docker (= 0.7.0)
   dropbox (= 1.2.0)

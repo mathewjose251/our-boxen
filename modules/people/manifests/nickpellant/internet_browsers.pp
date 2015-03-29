@@ -1,6 +1,7 @@
 class people::nickpellant::internet_browsers {
-  include chrome
-  include chrome::canary
+  package { 'google-chrome': provider => 'brewcask' }
+  package { 'google-chrome-canary': provider => 'brewcask' }
+
   include firefox::beta
   include tor
 }
