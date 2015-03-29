@@ -54,11 +54,6 @@ GITHUBTARBALL
     fig (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-firefox
-  specs:
-    firefox (1.2.3)
-
-GITHUBTARBALL
   remote: boxen/puppet-flux
   specs:
     flux (1.0.1)
@@ -290,7 +285,6 @@ DEPENDENCIES
   elasticsearch (= 2.7.0)
   evernote (= 2.0.4)
   fig (= 1.0.0)
-  firefox (= 1.2.3)
   flux (= 1.0.1)
   foreman (= 1.2.0)
   gcc (= 2.2.0)

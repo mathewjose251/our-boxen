@@ -88,8 +88,7 @@ github "phantomjs",      "2.3.0"
 github "virtualbox",     "1.0.13"
 
 # Internet Browsers
-github "firefox",             "1.2.3"
-github "tor",                 "1.1.0", :repo => "nickpellant/puppet-tor"
+github "tor", "1.1.0", :repo => "nickpellant/puppet-tor"
 
 # Productivity
 github "evernote",    "2.0.4"
