@@ -244,11 +244,6 @@ GITHUBTARBALL
     things (2.0.0)
 
 GITHUBTARBALL
-  remote: nickpellant/puppet-tor
-  specs:
-    tor (1.1.0)
-
-GITHUBTARBALL
   remote: nickpellant/puppet-xbox_360_controller
   specs:
     xbox_360_controller (1.0.0)
@@ -319,7 +314,6 @@ DEPENDENCIES
   sudo (= 1.0.0)
   sysctl (= 1.0.1)
   things (= 2.0.0)
-  tor (= 1.1.0)
   vagrant (= 3.1.1)
   virtualbox (= 1.0.13)
   wget (= 1.0.1)
