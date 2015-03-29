@@ -2,9 +2,8 @@ class people::nickpellant::developer_tools {
   include docker
   include fig
 
+  package { 'iterm2': provider => 'brewcask' }
   package { 'github': provider => 'brewcask' }
-
-  include iterm2::stable
 
   class { 'phantomjs':
     phantomenv_version => 'v0.0.9',
@@ -17,5 +16,4 @@ class people::nickpellant::developer_tools {
   package { 'git-extras':
     ensure => present
   }
-
 }
