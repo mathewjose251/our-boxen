@@ -88,7 +88,6 @@ github "phantomjs",      "2.3.0"
 github "virtualbox",     "1.0.13"
 
 # Productivity
-github "evernote",    "2.0.4"
 github "flux",        "1.0.1"
 github "onepassword", "1.1.4"
 github "things",      "2.0.0", :repo => "nickpellant/puppet-things"

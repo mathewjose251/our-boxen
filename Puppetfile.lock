@@ -44,11 +44,6 @@ GITHUBTARBALL
     elasticsearch (2.7.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-evernote
-  specs:
-    evernote (2.0.4)
-
-GITHUBTARBALL
   remote: boxen/puppet-fig
   specs:
     fig (1.0.0)
@@ -273,7 +268,6 @@ DEPENDENCIES
   docker (= 0.7.0)
   dropbox (= 1.2.0)
   elasticsearch (= 2.7.0)
-  evernote (= 2.0.4)
   fig (= 1.0.0)
   flux (= 1.0.1)
   foreman (= 1.2.0)
