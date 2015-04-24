@@ -2,6 +2,7 @@ class people::nickpellant::developer_tools {
   include docker
   include fig
 
+  package { 'chromedriver': ensure => present }
   package { 'git-extras': ensure => present }
   package { 'virtualbox': provider => 'brewcask' }
   package { 'github': provider => 'brewcask' }
