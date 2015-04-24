@@ -11,8 +11,7 @@ class people::nickpellant {
   include people::nickpellant::text_editors
   include people::nickpellant::utilities
 
-  include projects::all
+  include projects::bitbucket
   include projects::github
   include projects::nickpellant
-  include projects::waracle
 }
