@@ -1,9 +1,9 @@
 class people::nickpellant::developer_tools {
   include docker
   include fig
-  include virtualbox
 
   package { 'git-extras': ensure => present }
+  package { 'virtualbox': provider => 'brewcask' }
   package { 'github': provider => 'brewcask' }
   package { 'iterm2': provider => 'brewcask' }
 
@@ -12,4 +12,11 @@ class people::nickpellant::developer_tools {
     phantomenv_repository => 'nickpellant/phantomenv'
   }
   phantomjs::version { '1.9.7': }
+
+  class { 'vagrant': }
+
+  include heroku
+  heroku::plugin { 'accounts':
+    source => 'ddollar/heroku-accounts'
+  }
 }

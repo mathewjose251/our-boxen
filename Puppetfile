@@ -73,24 +73,11 @@ github "vagrant",             "3.1.1"
 github "mysql",               "1.2.0"
 github "php",                 "1.2.5"
 
-# Apps
-github "btsync",              "1.0.0"
-github "plex",                "1.0.0", :repo => "nickpellant/puppet-plex"
-github "silverlight",         "1.0.1", :repo => "nickpellant/puppet-silverlight"
-github "steam",               "1.0.1"
-github "dropbox",             "1.2.0"
-github "mailbox",             "1.1.1", :repo => "nickpellant/puppet-mailbox"
-
 # Developer Tools
 github "docker",         "0.7.0"
 github "fig",            "1.0.0"
 github "phantomjs",      "2.3.0"
 github "virtualbox",     "1.0.13"
-
-# Productivity
-github "flux",        "1.0.1"
-github "onepassword", "1.1.4"
-github "things",      "2.0.0", :repo => "nickpellant/puppet-things"
 
 # Programming Languages
 github "java", "1.8.0"
@@ -101,9 +88,3 @@ github "redis",         "3.0.2"
 github "mysql",         "1.2.0"
 github "cassandra",     "2.0.2"
 github "elasticsearch", "2.7.0"
-
-# Drivers
-github "xbox_360_controller", "1.0.0", :repo => "nickpellant/puppet-xbox_360_controller"
-
-# Text Editors
-github "sublime_text",        "1.0.1"

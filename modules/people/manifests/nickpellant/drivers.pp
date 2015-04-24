@@ -1,3 +1,3 @@
 class people::nickpellant::drivers {
-  include xbox_360_controller
+  package { 'xbox360-controller-driver': provider => 'brewcask' }
 }
