@@ -1,6 +1,4 @@
 class people::nickpellant::programming_languages::ruby {
-  ruby::version { '2.2.0': }
-
   ruby_gem { 'tmuxinator for all rubies':
     gem          => 'tmuxinator',
     version      => '~> 0.6',

@@ -1,5 +1,5 @@
 class projects::github::abigimportant::filmstacks-v1 {
-  include php::5_4
+  php::version { '5.4': }
 
   boxen::project { 'filmstacks-v1':
     dir    => "${boxen::config::srcdir}/github/abigimportant/filmstacks-v1",

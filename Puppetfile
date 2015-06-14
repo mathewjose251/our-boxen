@@ -29,11 +29,11 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "3.10.2"
+github "boxen", "3.11.0"
 
 # Support for default hiera data in modules
 
-github "module_data", "0.0.3", :repo => "ripienaar/puppet-module-data"
+github "module_data", "0.0.4", :repo => "ripienaar/puppet-module-data"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
@@ -41,50 +41,47 @@ github "module_data", "0.0.3", :repo => "ripienaar/puppet-module-data"
 github "brewcask",    "0.0.6"
 github "dnsmasq",     "2.0.1"
 github "foreman",     "1.2.0"
-github "gcc",         "2.2.0"
-github "git",         "2.7.6"
+github "gcc",         "2.2.1"
+github "git",         "2.7.9"
 github "go",          "2.1.0"
-github "homebrew",    "1.11.2"
+github "homebrew",    "1.13.0"
 github "hub",         "1.4.1"
-github "inifile",     "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
-github "nginx",       "1.4.4"
-github "nodejs",      "4.0.0"
+github "inifile",     "1.3.0", :repo => "puppetlabs/puppetlabs-inifile"
+github "nginx",       "1.4.6"
+github "nodejs",      "4.0.1"
 github "openssl",     "1.0.0"
-github "phantomjs",   "2.3.0"
+github "phantomjs",   "3.0.0"
 github "pkgconfig",   "1.0.0"
-github "repository",  "2.3.0"
-github "ruby",        "8.3.0"
-github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
+github "repository",  "2.4.1"
+github "ruby",        "8.5.2"
+github "stdlib",      "4.6.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
-# Optional/custom modules. There are tons available at
-# https://github.com/boxen.
-github "wget",                "1.0.1"
-github "autoconf",            "1.0.0"
-github "libtool",             "1.0.0"
-github "pcre",                "1.0.0"
-github "libpng",              "1.0.0"
-github "sysctl",              "1.0.1"
-github "postgresql",          "3.0.0"
-github "heroku",              "2.0.0"
-github "imagemagick",         "1.2.1"
-github "vagrant",             "3.1.1"
-github "mysql",               "1.2.0"
-github "php",                 "1.2.5"
+# Custom modules
+github "wget",        "1.0.1"
+github "autoconf",    "1.0.0"
+github "libtool",     "1.0.0"
+github "pcre",        "1.0.0"
+github "libpng",      "1.0.0"
+github "sysctl",      "1.0.1"
+github "imagemagick", "1.3.0"
 
-# Developer Tools
-github "docker",         "0.7.0"
-github "fig",            "1.0.0"
-github "phantomjs",      "2.3.0"
-github "virtualbox",     "1.0.13"
+# Developer tools
+github "heroku",     "2.0.0"
+github "vagrant",    "3.3.0"
+github "docker",     "0.9.0"
+github "fig",        "1.0.0"
+github "virtualbox", "1.0.13"
 
-# Programming Languages
-github "java", "1.8.0"
+# Programming languages
+github "java", "1.8.3"
+github "php",  "2.0.1"
 
-# Programming Datastores
-github "mongodb",       "1.3.3"
-github "redis",         "3.0.2"
-github "mysql",         "1.2.0"
+# Programming datastores
+github "mongodb",       "1.3.4"
+github "redis",         "3.1.0"
+github "mysql",         "2.0.3"
 github "cassandra",     "2.0.2"
-github "elasticsearch", "2.7.0"
+github "elasticsearch", "2.8.0"
+github "postgresql",    "4.0.1"
