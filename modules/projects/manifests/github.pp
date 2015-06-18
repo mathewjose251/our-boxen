@@ -11,8 +11,6 @@ class projects::github {
   include projects::github::nickpellant::bundler
   include projects::github::nickpellant::dotfiles
   include projects::github::nickpellant::nickpellant
-  include projects::github::nickpellant::outposts
-  include projects::github::nickpellant::outposts-ui
   include projects::github::nickpellant::puppet-alfred
   include projects::github::nickpellant::puppet-backblaze
   include projects::github::nickpellant::puppet-boxen
