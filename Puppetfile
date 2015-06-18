@@ -81,7 +81,7 @@ github "php",  "2.0.1"
 # Programming datastores
 github "mongodb",       "1.3.4"
 github "redis",         "3.1.0"
-github "mysql",         "2.0.3"
+dev "mysql"
 github "cassandra",     "2.0.2"
 github "elasticsearch", "2.8.0"
 github "postgresql",    "4.0.1"
