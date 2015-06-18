@@ -1,3 +1,8 @@
+PATH
+  remote: /Users/nickpellant/src/github/nickpellant/puppet-brewcask
+  specs:
+    puppet-brewcask (0.0.1)
+
 GITHUBTARBALL
   remote: boxen/puppet-autoconf
   specs:
@@ -7,11 +12,6 @@ GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.11.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-brewcask
-  specs:
-    brewcask (0.0.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-cassandra
@@ -206,7 +206,6 @@ GITHUBTARBALL
 DEPENDENCIES
   autoconf (= 1.0.0)
   boxen (= 3.11.0)
-  brewcask (= 0.0.6)
   cassandra (= 2.0.2)
   dnsmasq (= 2.0.1)
   docker (= 0.9.0)
@@ -235,6 +234,7 @@ DEPENDENCIES
   php (= 2.0.1)
   pkgconfig (= 1.0.0)
   postgresql (= 4.0.1)
+  puppet-brewcask (>= 0)
   redis (= 3.1.0)
   repository (= 2.4.1)
   ruby (= 8.5.2)
